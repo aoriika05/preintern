@@ -24,3 +24,4 @@ Homestead.yaml
 Thumbs.db
 docker/mysql
 docker/nginx/logs
+CFM_alma_.dockerFile
