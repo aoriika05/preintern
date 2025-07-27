@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function clubs()
+    {
+        return $this->belongsToMany(Club::class);
+    }
 }
