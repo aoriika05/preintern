@@ -25,3 +25,4 @@ Thumbs.db
 docker/mysql
 docker/nginx/logs
 CFM_alma_.dockerFile
+docker-compose.yml
