@@ -7,6 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class BudgetRequest extends Model
 {
     //
+
+    protected $fillable = [
+        'user_id',
+        'club_id',
+        'status',
+        'payment_method',
+    ];
+
     public function items()
     {
         return $this->hasMany(Item::class);
